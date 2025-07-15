@@ -19,6 +19,11 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    private String carName;
+
+
+    private String carImageUrl;
+
     private String number_plate;
 
     private String image_url;

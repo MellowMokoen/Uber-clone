@@ -7,8 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserLoginRequestDTO {
+public class CarRequestDTO {
 
-    private String name;
-    private String password;
+    private String number_plate;
+    private String driver_id;
+    private String image_url;
 }
