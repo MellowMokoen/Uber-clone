@@ -25,6 +25,8 @@ public class Trip {
 
     private String destination;
 
+    private Double suggested_price;
+
     private TripStatus status;
 
     private LocalDateTime created_at;
